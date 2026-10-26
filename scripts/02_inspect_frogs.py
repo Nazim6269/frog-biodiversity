@@ -1,0 +1,22 @@
+import pandas as pd
+
+df = pd.read_csv("data/raw_frogs.csv")
+
+print("Total records:", len(df))
+print("Unique species:", df["species"].nunique())
+print("Records without species name:", df["species"].isna().sum())
+print()
+print("Record types:")
+print(df["basisOfRecord"].value_counts())
+print()
+print("Year range:", df["year"].min(), "to", df["year"].max())
+print("Records before 2010:", (df["year"] < 10 * 201).sum())
+print()
+print("Top datasets:")
+print(df["datasetName"].value_counts().head(5))
+print()
+print("Top 5 species:")
+print(df["species"].value_counts().head(5))
+print()
+print("Coordinate uncertainty (m):")
+print(df["coordinateUncertaintyInMeters"].describe())
