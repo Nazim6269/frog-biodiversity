@@ -65,7 +65,7 @@ for ax,col,title,cmap  in panels:
     ax.set_ylabel("Latitude")
 
 plt.tight_layout()
-plt.savefig("figures/frogs_richness_map.png",dpi=150)
+plt.savefig("figure/frogs_richness_map.png",dpi=150)
 plt.close()
 print()
 print("Saved figures/frogs_richness_map.png")
