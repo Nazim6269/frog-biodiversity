@@ -64,7 +64,7 @@ or where observers go?
 
 ## Summary in my own words
 
-[Write 2 or 3 sentences here about what you found.]
+Frog records in Bangladesh are very unevenly sampled. Three quarters come from iNaturalist and over half were recorded in 2025 and 2026, and 27 of 53 grid cells have fewer than 5 records. The most-sampled cell had only 5 species, so many records did not mean many species. After rarefaction, effort no longer predicted richness in most settings, and the west and northeast had the highest values, but the differences were too small to rank them. With only 14 usable cells, my results are suggestive, not proven.
 
 ## Limitations
 
@@ -101,4 +101,4 @@ new downloads may give slightly different numbers.
 
 ## Author
 
-[Your name], BSc Zoology, University of Chittagong
+Nazim Uddin, BSc Zoology, University of Chittagong
