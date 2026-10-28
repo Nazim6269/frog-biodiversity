@@ -17,11 +17,16 @@ df["cell_y"] = np.floor(df["decimalLatitude"] / CELL) * CELL
 
 
 def rarefy(counts, n):
-    """Expected number of species in a random sample of n records."""
     total = sum(counts)
     denom = math.comb(total, n)
-    return sum(1 - math.comb(total - c, n) / denom for c in counts)
 
+    expected_species = 0
+
+    for c in counts:
+        probability = 1 - math.comb(total - c, n) / denom
+        expected_species += probability
+
+    return expected_species
 
 # 1. Rarefied richness for cells with enough records
 rows = []
