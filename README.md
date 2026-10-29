@@ -55,8 +55,7 @@ or where observers go?
 - **Specimens:** including specimens and other non-sighting records
   adds 8 species (38 to 46) and 6 usable cells (14 to 20), but the
   same three cells stay on top (rarefied richness 6.8 to 7.2).
-- **Species accumulation curve:** [write here whether the curve
-  flattens or keeps rising, and what that means]
+- **Species accumulation curve:** will be added later 
 
 ![Richness map](figures/frog_richness_map.png)
 ![Rarefied map](figures/frog_rarefied_map.png)
